@@ -100,7 +100,10 @@ h3{
   margin: 0px 0px 0px 3px;
   padding: 0;
 }
-
+h1{
+  text-decoration: none;
+  display: inline;
+}
 
 .grid-item--big {width: 730px}
 .grid-item--height2 { height: 200px; }
