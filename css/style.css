@@ -56,10 +56,16 @@ body {
 */
 * { box-sizing: border-box; }
 
+
 /*body { font-family: sans-serif; }
 */
 /* ---- grid ---- */
 
+img {
+    float: left;
+    margin: 3px 3px 3px 0px;
+    border-radius: 5px;
+}
 .grid {
   /*background: #EEE;*/
   max-width: 1200px;
@@ -79,13 +85,20 @@ body {
   height: 120px;
   float: left;
   /*background: #D26;*/
+  padding: 3px;
   border: 2px solid #333;
   margin: 5px;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 5px;
+
+}
+p{
+  margin: 0px 0px 0px 3px;
+  padding: 0;
 }
 
 
+.grid-item--big {width: 730px}
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 380px; }
