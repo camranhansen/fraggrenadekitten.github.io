@@ -5,7 +5,7 @@
 }
 
 section {
-  background: #eee;
+  /*background: #eee;*/
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -61,7 +61,7 @@ body {
 /* ---- grid ---- */
 
 .grid {
-  background: #EEE;
+  /*background: #EEE;*/
   max-width: 1200px;
 }
 
