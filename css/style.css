@@ -6,13 +6,13 @@
 
 section {
   background: #eee;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   overflow: hidden;
 }
 
-.module {
+/*.module {
   width: 48%;
   min-height: 200px;
   background: white;
@@ -26,13 +26,13 @@ section {
 .module:nth-child(even) {
   margin-right: 0;
 }
-
+*/
 body {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/blurry-blue.jpg);
   background-size: cover;
   padding: 30px;
 }
-
+/*
 .come-in {
   transform: translateY(150px);
   animation: come-in 2s ease forwards;
@@ -52,3 +52,42 @@ body {
     transform: translateY(0);
   }
 }
+
+*/
+* { box-sizing: border-box; }
+
+/*body { font-family: sans-serif; }
+*/
+/* ---- grid ---- */
+
+.grid {
+  background: #EEE;
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 380px;
+  height: 120px;
+  float: left;
+  /*background: #D26;*/
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 480px; }
+.grid-item--width4 { width: 640px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
