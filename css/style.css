@@ -35,11 +35,11 @@ body {
 
 .come-in {
   transform: translateY(150px);
-  animation: come-in 20s ease forwards;
+  animation: come-in 2s ease forwards;
 }
 
 .come-in:nth-child(odd) {
-  animation-duration: 0.6s;
+  animation-duration: 2.0s;
 }
 
 .already-visible {
