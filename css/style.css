@@ -35,7 +35,7 @@ body {
 
 .come-in {
   transform: translateY(150px);
-  animation: come-in 0.8s ease forwards;
+  animation: come-in 20s ease forwards;
 }
 
 .come-in:nth-child(odd) {
