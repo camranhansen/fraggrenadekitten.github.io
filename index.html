@@ -13,12 +13,64 @@
 </head>
 
 <body>
-this is work in progress
-<section>
 
-<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 160 }'>
-  <div class="grid-item">Hello world!</div>
-  <div class="grid-item"><br> hello world</div>
+<style type="text/css">
+    .logo-wrapper {
+      /*font-family: Arial;*/
+      /*font-size: 32px;*/
+      overflow: hidden;
+
+    }
+
+    .slide {
+      position:relative;
+      opacity: 0;
+    }
+
+    .right {
+      animation:moveright 1s ease-out forwards;
+      animation-delay: 1s;
+      
+      -webkit-animation:moveright 1s forwards;
+      -webkit-animation-delay: 1s;
+      left:-5ch;
+    }
+
+    @-webkit-keyframes moveright{
+      100% {left:0ch; opacity: 1}
+    }
+
+    .far {
+      animation:moveright 1s ease-out forwards;
+      animation-delay: 2s;
+      
+      -webkit-animation:moveright 1s forwards;
+      -webkit-animation-delay: 2s;
+      left:-10ch;
+    }
+
+    @-webkit-keyframes moveright{
+      100% {left:0ch; opacity: 1}
+    }
+
+    .main {
+      overflow: hidden;
+      text-decoration: underline;
+    }
+</style>
+
+
+<section>
+<div class="logo-wrapper">
+  <span class="main">C</span><span class="slide right">amran</span> <span class="slide far">Hansen</span>
+</div>
+<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+  <div class="grid-item grid-item--height4">hello world</div>
+  <div class="grid-item" >asdf</div>
+  <div class="grid-item">hello world</div>
+  <div class="grid-item ">asdf</div>  
+  <div class="grid-item">hello world</div>
+  <div class="grid-item ">asdf</div>
 
 
 <!--   <div class="grid-item grid-item--height3"></div>
