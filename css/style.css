@@ -96,6 +96,10 @@ p{
   margin: 0px 0px 0px 3px;
   padding: 0;
 }
+h3{
+  margin: 0px;
+  padding: 0;
+}
 
 
 .grid-item--big {width: 730px}
