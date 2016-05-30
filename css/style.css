@@ -12,27 +12,17 @@ section {
   overflow: hidden;
 }
 
-/*.module {
-  width: 48%;
-  min-height: 200px;
-  background: white;
-  position: relative;
-  float: left;
-  padding: 20px;
-  margin-right: 4%;
-  margin-bottom: 4%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+.module {
 }
 .module:nth-child(even) {
-  margin-right: 0;
 }
-*/
+
 body {
   /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/blurry-blue.jpg);*/
   background-size: cover;
   padding: 30px;
 }
-/*
+
 .come-in {
   transform: translateY(150px);
   animation: come-in 2s ease forwards;
@@ -53,7 +43,7 @@ body {
   }
 }
 
-*/
+
 * { box-sizing: border-box; }
 
 
