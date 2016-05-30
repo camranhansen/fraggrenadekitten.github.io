@@ -3,7 +3,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+@font-face {
+   font-family: precious;
+   src: /precious/Precious.ttf;
+}
 section {
   /*background: #eee;*/
   max-width: 800px;
