@@ -1,31 +1,31 @@
-<!DOCTYPE html>
-<html >
-<head>
-<meta charset="UTF-8">
-<title>Camran Hansen</title>
-
-<img src="img/test.png" >
-
-<map name="testmap">
-  <area shape="rect" class ="yellow" coords="0px, 0px, 127.00 px,173.00 px" href="">
-</map>
-
-
-
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script>
-$(".yellow").on("click", function(e){
-    e.preventDefault();
-    alert('test');
-});
-</script>
-    
-    
-    
-</body>
+<html>
+   
+   <head>
+      <title>Using JavaScript Image Map</title>
+      
+      <script type="text/javascript">
+            function test_func(name){
+               document.getElementById("text_goes_here").innerHTML = "Paragraph changed!";
+            }
+      </script>
+      
+   </head>
+   
+   <body>
+      <p id="text_goes_here"></p>
+      
+      <!-- Create  Mappings -->
+      <img src="img/usemap.png" alt="HTML Map" border="0" usemap="#tutorials"/>
+      
+      <map name="tutorials">
+         
+         
+         <area shape="rect" 
+            coords="0,0,242,218"
+            href="/html/index.htm" alt="HTML Tutorial" 
+            target="_self" 
+            onMouseOver="test_func('html')" 
+            onMouseOut="test_func('')"/>
+      </map>
+   </body>
 </html>
-
-
-
-
-
